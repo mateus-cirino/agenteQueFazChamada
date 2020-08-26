@@ -65,7 +65,7 @@ def getHorario(numAlunos, quantidadeChamada, duracaoAula):
 listaDeAlunos = getAlunos()
 
 numAlunos = len(listaDeAlunos)
-quantidadeChamada = 3
+quantidadeChamada = NUMERO_MAXIMO_DE_CHAMADAS
 duracaoAula = 10
 
 horario = getHorario(numAlunos, quantidadeChamada, duracaoAula)
